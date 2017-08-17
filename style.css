@@ -12,10 +12,34 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     background: #957A5E;
+    outline: auto;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
 }
 
 .column1 {
     width: 500px;
     min-height: 100px;
+}
+
+.battlefield {
+    background: #000;
+    width: 400px;
+    min-height: 50px;
+}
+
+.cell {
+    background: #393a54;
+    width: 40px;
+    min-height: 40px;
     outline: auto;
+    display: inline-block;
+}
+
+.column2 {
+    width: 200px;
+    min-height: 100px;
 }
