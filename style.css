@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: #3b585d;
+}
+.container {
+    width: 800px;
+}
+
+.outline {
+    border: 1px solid #444C66;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #957A5E;
+}
+
+.column1 {
+    width: 500px;
+    min-height: 100px;
+    outline: auto;
+}
