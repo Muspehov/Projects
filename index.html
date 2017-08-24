@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <!--<script src="battleship.js"></script>-->
+    <script></script>
     <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
@@ -12,16 +12,22 @@
     <div class="header outline">header</div>
     <div class="column1 column outline">
         <div class="battlefield">
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
-            <div class="cell"></div>
+            <div class="cell" data-click="0"></div>
+            <div class="cell" data-click="0"></div>
+            <div class="cell" data-click="0"></div>
+            <div class="cell" data-click="0"></div>
+            <div class="cell" data-click="0"></div>
+            <div class="cell" data-click="0"></div>
         </div>
     </div>
-    <div class="column2 column outline"></div>
-    <div class="footer outline">footer</div>
+    <div id="info" class="column2 column outline"></div>
+    <div class="footer outline">
+        <button id="testButton" class="test-button" onclick="funcEcho('info', 'Click Button!')">Test</button>
+    </div>
 </div>
+
+<script src="battleship.js">
+
+</script>
 </body>
 </html>

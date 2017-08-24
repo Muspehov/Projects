@@ -37,9 +37,15 @@ body {
     min-height: 40px;
     outline: auto;
     display: inline-block;
+    cursor: pointer;
 }
 
 .column2 {
     width: 200px;
     min-height: 100px;
+}
+
+.test-button {
+    background: #393c45;
+    color: #d9d3fd;
 }
